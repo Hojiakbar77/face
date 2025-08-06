@@ -315,6 +315,7 @@ class HeadMaskPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final paint = Paint()
       ..color = Colors.black.withAlpha(130)
+
       ..style = PaintingStyle.fill;
 
     final center = Offset(size.width / 2, size.height * 0.4);
